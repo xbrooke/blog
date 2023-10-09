@@ -15,9 +15,9 @@ cd docs/.vitepress/dist
 # 提交
 git init
 git add -A
-git commit -m '🚀 部署至 Jinyang79.github.io'
+git commit -m '🚀 部署至 xbrooke.github.io'
 
 # 推送至 https://github.com/Jinyang79/Jinyang79.github.io
-git push -f https://github.com/Jinyang79/Jinyang79.github.io.git master
+git push -f https://github.com/xbrooke/xbrooke.github.io.git master
 
 cd -

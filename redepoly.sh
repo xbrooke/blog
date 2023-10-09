@@ -4,4 +4,4 @@
 cd docs/.vitepress/dist
 
 # 推送至 https://github.com/Jinyang79/Jinyang79.github.io
-git push -f https://github.com/xbrooke/br.git master
+git push -f https://github.com/xbrooke/xbrooke.github.io.git master
