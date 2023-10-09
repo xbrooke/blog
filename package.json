@@ -1,0 +1,18 @@
+{
+  "name": "vitepress-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "xbrooke <5547191247@qq.com>",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.20"
+  },
+  "scripts": {
+    "deploy": "bash deploy.sh",
+    "redeploy": "bash redeploy.sh",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  }
+}
