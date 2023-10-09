@@ -6,7 +6,7 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.45"
+    "vitepress": "^1.0.0-rc.20"
   },
   "scripts": {
     "deploy": "bash deploy.sh",
