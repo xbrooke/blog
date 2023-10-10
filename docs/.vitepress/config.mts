@@ -135,14 +135,14 @@ export default defineConfig({
       },
       {
         //分组标题3
-        text: '其他站点',
-        collapsed: false,
-        items: [
-          { text: 'VuePress', link: 'https://vuepress.yiov.top/' },
-          { text: '劝学录教程', link: 'https://yiov.top/' },
-          { text: '个人主页', link: 'https://yingyayi.com/' },
-        ],
-      },
+        //text: '其他站点',
+       // collapsed: false,
+      //  items: [
+        //  { text: 'VuePress', link: 'https://vuepress.yiov.top/' },
+        //  { text: '劝学录教程', link: 'https://yiov.top/' },
+       //   { text: '个人主页', link: 'https://yingyayi.com/' },
+       // ],
+     // },
     ],
 
 
