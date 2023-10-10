@@ -101,28 +101,25 @@ export default defineConfig({
     sidebar: [
       {
         //分组标题1
-        text: '介绍',
+        text: '运营文档',
         collapsed: false,
         items: [
-          { text: '前言', link: '/preface' },
+          { text: 'Ai创作', link: '/yy/gp' },
+          { text: '平台', link: '/yy/pt' },
+          { text: '线上渠道', link: '/yy/ws' },
+          { text: '小红书', link: '/yy/xs' },
+          { text: '语法', link: '/yy/yf' },
         ],
       },
       {
         //分组标题2
-        text: '基础配置',
+        text: 'vite部署',
         collapsed: false,
         items: [
           { text: '快速上手', link: '/getting-started' },
           { text: '配置', link: '/configuration' },
           { text: '页面', link: '/page' },
           { text: 'Frontmatter', link: '/frontmatter' },
-        ],
-      },
-      {
-        //分组标题3
-        text: '进阶玩法',
-        collapsed: false,
-        items: [
           { text: 'Markdown', link: '/markdown' },
           { text: '团队', link: '/team' },
           { text: '静态部署', link: '/assets' },
