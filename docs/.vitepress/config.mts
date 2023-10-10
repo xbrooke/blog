@@ -27,17 +27,6 @@ export default defineConfig({
       label: '简体中文',
       lang: 'Zh_CN',
     },
-    en: {
-      label: 'English',
-      lang: 'en',
-      link: '/en/',
-    },
-    fr: {
-      label: 'French',
-      lang: 'fr',
-      link: '/fr/',
-    }
-  },
 
   //markdown配置
   markdown: {
