@@ -4,12 +4,12 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "徐大兵 Brooke",
-  description: "徐大兵Blog",
+  title: "徐大兵Brooke",
+  description: "Brooke",
 
   // #region fav
   head: [
-    ['link',{ rel: 'icon', href: '/img/logo.png'}],
+    ['link',{ rel: 'icon', href: '/logo.png'}],
   ],
   // #endregion fav
 
@@ -19,7 +19,7 @@ export default defineConfig({
 
 
   //启用深色模式
-  //appearance:'dark',
+  appearance:'dark',
 
   //多语言
   locales: {
@@ -27,6 +27,7 @@ export default defineConfig({
       label: '简体中文',
       lang: 'Zh_CN',
     },
+  },
 
   //markdown配置
   markdown: {
@@ -39,7 +40,7 @@ export default defineConfig({
   //主题配置
   themeConfig: {
     //左上角logo
-    logo: '/img/logo.png',
+    logo: '/logo.png',
     //logo: 'https://vitejs.cn/vite3-cn/logo-with-shadow.png', //远程引用
     //siteTitle: false, //标题隐藏
 
@@ -48,7 +49,17 @@ export default defineConfig({
 
     //导航栏
     nav: [
-      { text: '首页', link: '/' },
+      { text: '❤首页', link: '/' },
+      {
+        text: '🍭运营',
+        items: [
+          { text: 'Ai创作', link: '/yy/gp' },
+          { text: '平台', link: '/yy/pt' },
+          { text: '线上渠道', link: '/yy/ws' },
+          { text: '小红书', link: '/yy/xs' },
+          { text: '语法', link: '/yy/yf' },
+        ],
+      },
       {
         text: '🍉指南',
         items: [
@@ -83,10 +94,8 @@ export default defineConfig({
           },
         ],
       },
-     // { text: 'VitePress', link: 'https://vitepress.dev/' },
 
     ],
-
 
     //侧边栏
     sidebar: [
@@ -122,16 +131,6 @@ export default defineConfig({
           { text: '更新版本', link: '/update' },
         ],
       },
-     // {
-        //分组标题3
-        //text: '其他站点',
-       // collapsed: false,
-      //  items: [
-        //  { text: 'VuePress', link: 'https://vuepress.yiov.top/' },
-        //  { text: '劝学录教程', link: 'https://yiov.top/' },
-       //   { text: '个人主页', link: 'https://yingyayi.com/' },
-       // ],
-     // },
     ],
 
 
