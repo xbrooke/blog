@@ -133,7 +133,7 @@ export default defineConfig({
           { text: '更新版本', link: '/update' },
         ],
       },
-      {
+     // {
         //分组标题3
         //text: '其他站点',
        // collapsed: false,
