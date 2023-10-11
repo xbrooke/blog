@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as e,Q as n}from"./chunks/framework.5887c248.js";const v=JSON.parse('{"title":"更新版本","description":"","frontmatter":{},"headers":[],"relativePath":"update.md","filePath":"update.md"}'),p={name:"update.md"},l=n("",15),o=[l];function c(t,i,r,d,u,h){return a(),e("div",null,o)}const m=s(p,[["render",c]]);export{v as __pageData,m as default};
