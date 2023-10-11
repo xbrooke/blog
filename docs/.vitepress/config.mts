@@ -109,7 +109,7 @@ export default defineConfig({
           { text: 'Ai创作', link: '/yy/gp' },
           { text: '渠道平台', link: '/yy/pt' },
           { text: '线上渠道', link: '/yy/ws' },
-          { text: '口碑计划', link: '/kb/kb' },
+          { text: '口碑计划', link: '/KB/KB' },
         ],
       },
       {
