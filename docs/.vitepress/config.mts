@@ -104,11 +104,12 @@ export default defineConfig({
         text: '运营文档',
         collapsed: false,
         items: [
-          { text: 'Ai创作', link: '/yy/gp' },
-          { text: '平台', link: '/yy/pt' },
-          { text: '线上渠道', link: '/yy/ws' },
           { text: '小红书', link: '/yy/xs' },
           { text: '语法', link: '/yy/yf' },
+          { text: 'Ai创作', link: '/yy/gp' },
+          { text: '渠道平台', link: '/yy/pt' },
+          { text: '线上渠道', link: '/yy/ws' },
+          { text: '口碑计划', link: '/kb/kb' },
         ],
       },
       {
