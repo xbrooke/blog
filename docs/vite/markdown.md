@@ -94,9 +94,9 @@ export default defineConfig({
 其他文件夹请遵从下面的使用规则
 :::
 
-![LOGO](./public/logo.png)
+![LOGO](./img/logo.png)
 
-![LOGO](/public/logo.png)
+![LOGO](./img/logo.png)
 
 
 
