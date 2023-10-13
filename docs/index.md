@@ -1,1 +1,6 @@
-## 欢迎来到徐大兵的地盘
+---
+lastUpdated: false
+---
+
+<Home />
+徐大兵

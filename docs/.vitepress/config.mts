@@ -67,29 +67,29 @@ export default defineConfig({
             // 分组标题1
             text: '介绍',
             items: [
-              { text: '前言', link: '/preface' },
+              { text: '前言', link: '/vite/preface' },
             ],
           },
           {
             // 分组标题2
             text: '基础设置',
             items: [
-              { text: '快速上手', link: '/getting-started' },
-              { text: '配置', link: '/configuration' },
-              { text: '页面', link: '/page' },
-              { text: 'Frontmatter', link: '/frontmatter' },
+              { text: '快速上手', link: '/vite/getting-started' },
+              { text: '配置', link: '/vite/configuration' },
+              { text: '页面', link: '/vite/page' },
+              { text: 'Frontmatter', link: '/vite/frontmatter' },
             ],
           },
           {
             // 分组标题3
             text: '进阶玩法',
             items: [
-              { text: 'Markdown', link: '/markdown' },
-              { text: '团队', link: '/team' },
-              { text: '静态部署', link: '/assets' },
-              { text: '样式美化', link: '/style' },
-              { text: '组件', link: '/components' },
-              { text: '更新版本', link: '/update' },
+              { text: 'Markdown', link: '/vite/markdown' },
+              { text: '团队', link: '/vite/team' },
+              { text: '静态部署', link: '/vite/assets' },
+              { text: '样式美化', link: '/vite/style' },
+              { text: '组件', link: '/vite/components' },
+              { text: '更新版本', link: '/vite/update' },
             ],
           },
         ],
@@ -98,65 +98,39 @@ export default defineConfig({
     ],
 
     //侧边栏
-    sidebar: [
-      {
-        //分组标题1
-        text: '运营文档',
-        collapsed: false,
-        items: [
-          { text: '小红书', link: '/yy/xs' },
-          { text: '语法', link: '/yy/yf' },
-          { text: 'Ai创作', link: '/yy/gp' },
-          { text: '渠道平台', link: '/yy/pt' },
-          { text: '线上渠道', link: '/yy/ws' },
-          { text: '口碑计划', link: '/KB/KB' },
-        ],
-      },
-      {
-        //分组标题2
-        text: 'vite部署',
-        collapsed: false,
-        items: [
-          { text: '快速上手', link: '/getting-started' },
-          { text: '配置', link: '/configuration' },
-          { text: '页面', link: '/page' },
-          { text: 'Frontmatter', link: '/frontmatter' },
-          { text: 'Markdown', link: '/markdown' },
-          { text: '团队', link: '/team' },
-          { text: '静态部署', link: '/assets' },
-          { text: '样式美化', link: '/style' },
-          { text: '组件', link: '/components' },
-          { text: '更新版本', link: '/update' },
-        ],
-      },
-    ],
-
-
-
-    //本地搜索
-    search: {
-      provider: 'local',
-      options: {
-        locales: {
-          zh: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
-                },
-              },
-            },
-          },
+    sidebar: {
+      '/yy/': [
+        {
+          text: '运营文档',
+          items: [
+            { text: '小红书', link: '/yy/xs' },
+            { text: '语法', link: '/yy/yf' },
+            { text: 'Ai创作', link: '/yy/gp' },
+            { text: '渠道平台', link: '/yy/pt' },
+            { text: '线上渠道', link: '/yy/ws' },
+            { text: '口碑计划', link: '/KB/KB' },
+          ]
         },
+     ],
+     '/vite/': [
+      {
+        text: 'Vite教程',
+        items: [
+            { text: '快速上手', link: '/vite/getting-started' },
+            { text: '配置', link: '/vite/configuration' },
+            { text: '页面', link: '/vite/page' },
+            { text: 'Frontmatter', link: '/vite/frontmatter' },
+            { text: 'Markdown', link: '/vite/markdown' },
+            { text: '团队', link: '/vite/team' },
+            { text: '静态部署', link: '/vite/assets' },
+            { text: '样式美化', link: '/vite/style' },
+            { text: '组件', link: '/vite/components' },
+            { text: '更新版本', link: '/vite/update' },
+        ]
       },
-    },
+   ],
+
+   },
 
 
 
