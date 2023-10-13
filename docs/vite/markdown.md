@@ -78,10 +78,10 @@ export default defineConfig({
 
 ```md
 <!-- 相对路径，目标文件相对于本文章所在位置 -->
-![LOGO](./img/logo.png)
+
 
 <!-- 绝对路径，目标文件就是真实路径在哪 -->
-![LOGO](./img/logo.png)
+
 ```
 
 
@@ -89,49 +89,21 @@ export default defineConfig({
 输出：
 
 ::: tip 说明
-由于public文件夹的特殊性，我们直接使用 `![LOGO](./logo.png)` 即可
+由于public文件夹的特殊性，我们直接使用 `` 即可
 
 其他文件夹请遵从下面的使用规则
 :::
 
-![LOGO](./img/logo.png)
-
-![LOGO](./img/logo.png)
 
 
 
 
 
 
-### 链接
-
-分为内部和外部链接，且默认情况下，生成链接带有  `.html`后缀
-
-内部链接引用，输入：
-
-```md
-[点我跳转：Frontmatter文章中的大纲](./frontmatter.md#大纲)
-```
 
 
-输出：
-
-[点我跳转：Frontmatter文章中的大纲](./frontmatter.md#大纲)
 
 
-外部链接引用，输入：
-
-```md
-* [vuejs.org](https://vuejs.org/)
-
-* [GitHub 上的 VitePress](https://github.com/vuejs/vitepress)
-```
-
-输出：
-
-* [vuejs.org](https://vuejs.org/)
-
-* [GitHub 上的 VitePress](https://github.com/vuejs/vitepress)
 
 
 
