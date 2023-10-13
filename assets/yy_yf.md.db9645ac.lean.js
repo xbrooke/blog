@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,Q as e}from"./chunks/framework.1383a2f2.js";const h=JSON.parse('{"title":"Markdown语法","description":"","frontmatter":{},"headers":[],"relativePath":"yy/yf.md","filePath":"yy/yf.md"}'),l={name:"yy/yf.md"},t=e("",20),p=[t];function o(r,c,i,d,b,g){return a(),n("div",null,p)}const m=s(l,[["render",o]]);export{h as __pageData,m as default};

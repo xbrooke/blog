@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,Q as p}from"./chunks/framework.1383a2f2.js";const v=JSON.parse('{"title":"样式美化","description":"","frontmatter":{},"headers":[],"relativePath":"vite/style.md","filePath":"vite/style.md"}'),l={name:"vite/style.md"},o=p("",37),e=[o];function c(r,t,E,y,i,b){return n(),a("div",null,e)}const u=s(l,[["render",c]]);export{v as __pageData,u as default};

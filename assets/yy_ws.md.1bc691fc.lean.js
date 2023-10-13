@@ -1,0 +1,1 @@
+import{_ as t,o,c as e,Q as a}from"./chunks/framework.1383a2f2.js";const u=JSON.parse('{"title":"为什么要做线上渠道","description":"","frontmatter":{},"headers":[],"relativePath":"yy/ws.md","filePath":"yy/ws.md"}'),r={name:"yy/ws.md"},s=a("",8),n=[s];function c(i,l,p,d,_,h){return o(),e("div",null,n)}const m=t(r,[["render",c]]);export{u as __pageData,m as default};

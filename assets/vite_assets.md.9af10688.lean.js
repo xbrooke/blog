@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,Q as l}from"./chunks/framework.1383a2f2.js";const u=JSON.parse('{"title":"静态部署","description":"","frontmatter":{},"headers":[],"relativePath":"vite/assets.md","filePath":"vite/assets.md"}'),p={name:"vite/assets.md"},e=l("",27),o=[e];function t(r,c,i,y,E,d){return a(),n("div",null,o)}const h=s(p,[["render",t]]);export{u as __pageData,h as default};

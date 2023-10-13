@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.1383a2f2.js";const d=JSON.parse('{"title":"页面","description":"","frontmatter":{},"headers":[],"relativePath":"vite/page.md","filePath":"vite/page.md"}'),p={name:"vite/page.md"},e=l("",115),o=[e];function c(t,i,r,E,h,y){return n(),a("div",null,o)}const b=s(p,[["render",c]]);export{d as __pageData,b as default};
