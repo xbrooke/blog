@@ -1,6 +1,8 @@
 ---
-lastUpdated: false
+layout: home
 ---
 
-<Home />
-徐大兵
+<SpotlightCursorText>
+  Hi,蛤蟆友<br />
+  这是教程天地！
+</SpotlightCursorText>
