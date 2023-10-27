@@ -13,7 +13,7 @@ export default defineConfig({
   ],
   // #endregion fav
 
-  base: '/br/', //网站部署到github的vitepress这个仓库里
+  base: '/', //网站部署到github的vitepress这个仓库里
 
   //cleanUrls:true, //开启纯净链接无html
 
@@ -27,16 +27,6 @@ export default defineConfig({
       label: '简体中文',
       lang: 'Zh_CN',
     },
-    en: {
-      label: 'English',
-      lang: 'en',
-      link: '/en/',
-    },
-    fr: {
-      label: 'French',
-      lang: 'fr',
-      link: '/fr/',
-    }
   },
 
   //markdown配置
