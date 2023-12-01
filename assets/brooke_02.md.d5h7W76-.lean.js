@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,R as r}from"./chunks/framework.6fCtwfV3.js";const p=JSON.parse('{"title":"网址","description":"","frontmatter":{},"headers":[],"relativePath":"brooke/02.md","filePath":"brooke/02.md"}'),o={name:"brooke/02.md"},i=r("",4),s=[i];function n(h,l,c,d,_,b){return a(),t("div",null,s)}const u=e(o,[["render",n]]);export{p as __pageData,u as default};
