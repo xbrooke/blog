@@ -51,37 +51,24 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '🍉指南',
+        text: '🍉笔记',
         items: [
           {
             // 分组标题1
-            text: '介绍',
+            text: '运营',
             items: [
-              { text: '前言', link: '/preface' },
+              { text: '渠道', link: '/brooke/01' },
             ],
           },
           {
             // 分组标题2
-            text: '基础设置',
+           text: '折腾',
             items: [
-              { text: '快速上手', link: '/getting-started' },
-              { text: '配置', link: '/configuration' },
-              { text: '页面', link: '/page' },
-              { text: 'Frontmatter', link: '/frontmatter' },
+              { text: '网址', link: '/brooke/01' },
+             
             ],
           },
-          {
-            // 分组标题3
-            text: '进阶玩法',
-            items: [
-              { text: 'Markdown', link: '/markdown' },
-              { text: '团队', link: '/team' },
-              { text: '静态部署', link: '/assets' },
-              { text: '样式美化', link: '/style' },
-              { text: '组件', link: '/components' },
-              { text: '更新版本', link: '/update' },
-            ],
-          },
+
         ],
       },
      // { text: 'VitePress', link: 'https://vitepress.dev/' },
@@ -93,44 +80,18 @@ export default defineConfig({
     sidebar: [
       {
         //分组标题1
-        text: '介绍',
+        text: '运营',
         collapsed: false,
         items: [
-          { text: '前言', link: '/preface' },
+          { text: '平台', link: '/brooke/01' },
         ],
       },
       {
-        //分组标题2
-        text: '基础配置',
+        //分组标题
+        text: '折腾',
         collapsed: false,
         items: [
-          { text: '快速上手', link: '/getting-started' },
-          { text: '配置', link: '/configuration' },
-          { text: '页面', link: '/page' },
-          { text: 'Frontmatter', link: '/frontmatter' },
-        ],
-      },
-      {
-        //分组标题3
-        text: '进阶玩法',
-        collapsed: false,
-        items: [
-          { text: 'Markdown', link: '/markdown' },
-          { text: '团队', link: '/team' },
-          { text: '静态部署', link: '/assets' },
-          { text: '样式美化', link: '/style' },
-          { text: '组件', link: '/components' },
-          { text: '更新版本', link: '/update' },
-        ],
-      },
-      {
-        //分组标题3
-        text: '其他站点',
-        collapsed: false,
-        items: [
-          { text: 'VuePress', link: 'https://vuepress.yiov.top/' },
-          { text: '劝学录教程', link: 'https://yiov.top/' },
-          { text: '个人主页', link: 'https://yingyayi.com/' },
+          { text: '网址', link: '/brooke/01' },
         ],
       },
     ],
@@ -166,9 +127,9 @@ export default defineConfig({
 
     //社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Yiov/vitepress-doc' },
-      { icon: 'twitter', link: 'https://twitter.com/' }, 
-      { icon: 'discord', link: 'https://chat.vitejs.dev/' }, 
+      { icon: 'github', link: 'https://github.com/xbrooke/blog' },
+     // { icon: 'twitter', link: 'https://twitter.com/' }, 
+    //  { icon: 'discord', link: 'https://chat.vitejs.dev/' }, 
     ],
 
     //手机端深浅模式文字修改
