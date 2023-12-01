@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as e,Q as o}from"./chunks/framework.1383a2f2.js";const u=JSON.parse('{"title":"大众点评","description":"","frontmatter":{},"headers":[],"relativePath":"yy/pt.md","filePath":"yy/pt.md"}'),s={name:"yy/pt.md"},r=o("",12),i=[r];function l(n,c,h,p,d,_){return t(),e("div",null,i)}const f=a(s,[["render",l]]);export{u as __pageData,f as default};
