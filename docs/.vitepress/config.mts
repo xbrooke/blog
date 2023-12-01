@@ -64,7 +64,7 @@ export default defineConfig({
             // 分组标题2
            text: '折腾',
             items: [
-              { text: '网址', link: '/brooke/01' },
+              { text: '网址', link: '/brooke/02' },
              
             ],
           },
@@ -91,7 +91,7 @@ export default defineConfig({
         text: '折腾',
         collapsed: false,
         items: [
-          { text: '网址', link: '/brooke/01' },
+          { text: '网址', link: '/brooke/02' },
         ],
       },
     ],
