@@ -49,22 +49,24 @@ export default defineConfig({
 
     //导航栏
     nav: [
-      { text: '首页', link: '/' },
+      { text: '个人介绍', link: '/' },
       {
-        text: '🍉笔记',
+        text: '🍉平台心得',
         items: [
           {
             // 分组标题1
-            text: '运营',
+            text: '渠道平台',
             items: [
-              { text: '渠道', link: '/brooke/01' },
+              { text: '小红书', link: '/brooke/01' },
+              { text: '微信公众号', link: '/brooke/02' },
+              { text: '短视频平台', link: '/brooke/03' },
             ],
           },
           {
             // 分组标题2
-           text: '折腾',
+           text: '项目展示',
             items: [
-              { text: '网址', link: '/brooke/02' },
+              { text: '效果', link: '/brooke/04' },
              
             ],
           },
@@ -80,18 +82,20 @@ export default defineConfig({
     sidebar: [
       {
         //分组标题1
-        text: '运营',
+        text: '渠道平台',
         collapsed: false,
         items: [
-          { text: '平台', link: '/brooke/01' },
+          { text: '小红书', link: '/brooke/01' },
+          { text: '微信公众号', link: '/brooke/02' },
+          { text: '短视频平台', link: '/brooke/03' },
         ],
       },
       {
         //分组标题
-        text: '折腾',
+        text: '项目展示',
         collapsed: false,
         items: [
-          { text: '网址', link: '/brooke/02' },
+          { text: '效果', link: '/brooke/04' },
         ],
       },
     ],

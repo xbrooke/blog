@@ -1,2 +1,115 @@
-# Hello
-👋 Hi 我是 徐大兵，目前在深圳，从事家装运营。
+<div align="center" style="margin-bottom: 24px;">
+  <img src="./img/xb.png" alt="头像" width="100" style="border-radius: 50%; display: block; margin: 0 auto 12px;" />
+  <h1 style="margin: 0 0 8px;">徐斌</h1>
+  <p style="margin: 0 0 4px; color: #666;">1995年10月 ｜ 深圳宝安 ｜ 共青团员</p>
+  <p style="margin: 0; font-size: 14px; color: #444;">
+    <a href="tel:19270080959" style="color: #1a73e8; text-decoration: none; margin-right: 16px;">19270080959</a>
+    <a href="mailto:bb@sosun.cc" style="color: #1a73e8; text-decoration: none;">bb@sosun.cc</a>
+  </p>
+</div>
+
+---
+
+### 基本信息
+
+<div style="display: grid; grid-template-columns: repeat(3, auto); gap: 24px; align-items: center; margin-bottom: 24px;">
+  <div><strong>民族：</strong>汉族</div>
+  <div><strong>身高：</strong>180cm</div>
+  <div><strong>学历：</strong>全日制专科</div>
+  <div><strong>毕业院校：</strong>江西现代学院</div>
+  <div><strong>专业：</strong>室内设计</div>
+  <div><strong>求职意向：</strong>运营岗</div>
+</div>
+
+---
+
+### 教育背景
+
+**2015.07 - 2018.07**  
+江西现代学院 ｜ 室内设计
+
+---
+
+### 工作亮点
+
+<div style="display: grid; grid-template-columns: 200px 1fr; gap: 12px; margin-bottom: 24px;">
+  <div><strong>小红书运营</strong></div>
+  <div>
+    <p style="margin: 0;">搭建两手硬家装分店小红书账号，持续内容产出，吸引 50+ 新客户，签单产值超 80 万。</p>
+    <p style="margin: 0;">广州格梵装饰多篇爆款内容，涨粉 3w+，单篇点赞 4w+、收藏 6.9w，变现超 100 万。</p>
+  </div>
+
+  <div><strong>视频平台运营</strong></div>
+  <div>
+    <p style="margin: 0;">抖音/视频号管家宅配装饰子品牌账号搭建与运营，带来 100w+ 转化。</p>
+  </div>
+
+  <div><strong>好好住平台</strong></div>
+  <div>
+    <p style="margin: 0;">10+ 案例入选精选，中户型榜 Top1、复古榜 Top2，2023 年机构榜 Top1。</p>
+  </div>
+
+  <div><strong>住小帮账号</strong></div>
+  <div>
+    <p style="margin: 0;">设计师“徐大兵”账号，广州口碑榜第2，优选榜第3，产值超 80 万。</p>
+  </div>
+</div>
+
+---
+
+### 工作经历
+
+<div style="display: grid; grid-template-columns: 200px 1fr; gap: 12px; margin-bottom: 24px;">
+  <div><strong>广州两手硬装饰</strong><br>渠道主管（2020.06 - 至今）</div>
+  <div>
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>制定年度运营及投放计划，确保投产比可控</li>
+      <li>复盘数据，调整策略，提升内容转化效率</li>
+      <li>深圳账号从0搭建，运营点评、土巴兔、住小帮、小红书等平台</li>
+      <li>负责子品牌账号搭建与短视频脚本策划</li>
+      <li>跟踪客户数据及平台机制，优化部门动作</li>
+    </ul>
+  </div>
+
+  <div><strong>华浔品味装饰总部</strong><br>新媒体运营（2019.09 - 2020.06）</div>
+  <div>
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>撰写品牌新闻稿，策划整合营销活动</li>
+      <li>执行多平台广告投放及投产分析</li>
+      <li>处理平台负面评价，跟进客户反馈</li>
+      <li>搭建小红书账号，引入有效流量</li>
+    </ul>
+  </div>
+
+  <div><strong>华浔品味装饰总部</strong><br>设计师助理（2017.11 - 2019.07）</div>
+  <div>
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>协助邀约客户、量房、谈单与签单</li>
+      <li>参与方案制作、施工图纸绘制及现场跟进</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+### 技能特长
+
+<div style="display: grid; grid-template-columns: repeat(3, minmax(180px, 1fr)); gap: 16px; margin-bottom: 24px;">
+  <div><strong>Photoshop</strong><br>专业图像编辑与处理</div>
+  <div><strong>Premiere</strong><br>视频剪辑与后期制作</div>
+  <div><strong>剪映</strong><br>短视频快速剪辑工具</div>
+  <div><strong>AutoCAD</strong><br>熟练使用室内设计制图</div>
+  <div><strong>Office 办公工具</strong><br>Word / Excel / PPT 熟练操作</div>
+  <div><strong>HTML / Markdown</strong><br>基础网页维护与排版</div>
+  <div><strong>内容策划 / 脚本撰写 / 账号矩阵运营</strong></div>
+</div>
+
+---
+
+### 自我评价
+
+深度新媒体从业者，擅长账号从0到1搭建与长期运营，内容策略敏感且执行力强。具备家装行业经验与用户共情能力，关注数据与平台机制变化，善于结合节点调整内容节奏与形式，注重实效与转化。
+
+---
+
+> 本简历由本人整理并维护。如需获取 PDF 简历，欢迎通过邮箱沟通：<a href="mailto:bb@sosun.cc">bb@sosun.cc</a>
