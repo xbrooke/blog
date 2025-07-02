@@ -18,7 +18,7 @@
   <div><strong>学历：</strong>全日制专科</div>
   <div><strong>毕业院校：</strong>江西现代学院</div>
   <div><strong>专业：</strong>室内设计</div>
-  <div><strong>求职意向：</strong>运营岗</div>
+  <div><strong>求职意向：</strong>运营岗位</div>
 </div>
 
 ---
