@@ -1,21 +1,18 @@
-import Theme from 'vitepress/theme'
+import type { Theme } from 'vitepress'
+import DefaultTheme from 'vitepress/theme'
+import DarkModeToggle from './components/DarkModeToggle.vue'
+import Video from './components/Video.vue'
+
 import './style/var.css'
 import './style/custom.css'
-import DarkModeToggle from './components/DarkModeToggle.vue'
-
-
-
-import Video from "./components/Video.vue"
-
-
 
 export default {
-  ...Theme,
+  ...DefaultTheme,
   enhanceApp(ctx) {
+    DefaultTheme.enhanceApp(ctx)
     ctx.app.component('DarkModeToggle', DarkModeToggle)
-    // 注册全局组件
-    ctx.app.component('Video' , Video)
+    ctx.app.component('Video', Video)
   }
-}
+} satisfies Theme
 
 
