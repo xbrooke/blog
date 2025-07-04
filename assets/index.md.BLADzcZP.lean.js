@@ -1,0 +1,1 @@
+import{_ as r,c as t,o,ai as a}from"./chunks/framework.DcoBsTdY.js";const e="/img/xb.png",c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"};function d(s,i,l,g,p,v){return o(),t("div",null,i[0]||(i[0]=[a("",21)]))}const h=r(n,[["render",d]]);export{c as __pageData,h as default};

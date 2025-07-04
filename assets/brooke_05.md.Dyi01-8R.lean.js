@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.DcoBsTdY.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"brooke/05.md","filePath":"brooke/05.md"}'),r={name:"brooke/05.md"};function a(s,c,n,_,p,d){return o(),t("div")}const f=e(r,[["render",a]]);export{m as __pageData,f as default};
