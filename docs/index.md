@@ -1,8 +1,9 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
+
 <div align="center" style="margin-bottom: 24px;">
   <img src="/img/xb.png" alt="头像" width="100" style="border-radius: 50%; display: block; margin: 0 auto 12px;" />
   <h1 style="margin: 0 0 8px;">徐斌</h1>
   <p style="margin: 0 0 4px; color: #666;">1995年10月 ｜ 深圳宝安 ｜ 共青团员</p>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
   <p style="margin: 0; font-size: 14px; color: #444; display: flex; align-items: center; justify-content: center; gap: 8px;">
     <span style="display: flex; align-items: center; margin-right: 16px;">
       <i class="ti ti-phone" style="font-size: 16px; color: #1a73e8; margin-right: 4px;"></i>

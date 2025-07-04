@@ -182,25 +182,44 @@ function getVideoIframe(url) {
   gap: 20px;
   margin: 24px 0;
 }
+/* 基础卡片样式 */
 .grid-card {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: none;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: box-shadow 0.18s, transform 0.18s;
+  transition: border-color 0.18s, transform 0.18s;
   cursor: pointer;
   border: 1px solid #ececec;
 }
 .grid-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  border-color: #1a73e8;
   transform: translateY(-2px) scale(1.01);
-  border-color: #aad7ff;
 }
 .grid-card.active-blue {
-  box-shadow: 0 0 0 2px #1e293b33, 0 4px 16px #1e293bcc;
-  border-color: #1e293b;
+  border-color: #1a73e8;
+}
+/* 深色模式下卡片纯黑背景、弱边框、无高亮 */
+@media (prefers-color-scheme: dark) {
+  :global(.dark) .grid-card {
+    background: #111214 !important;
+    border: 1px solid #23262b !important;
+    box-shadow: none !important;
+  }
+  :global(.dark) .grid-card:hover,
+  :global(.dark) .grid-card.active-blue {
+    border-color: #1a73e8 !important;
+    box-shadow: none !important;
+    background: #111214 !important;
+  }
+  :global(.dark) .grid-card-title {
+    color: #e3e6eb !important;
+  }
+  :global(.dark) .grid-card-desc {
+    color: #b0b3b8 !important;
+  }
 }
 .grid-card-link {
   display: block;
