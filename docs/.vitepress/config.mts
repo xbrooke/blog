@@ -66,7 +66,7 @@ export default defineConfig({
             // 分组标题2
            text: '项目展示',
             items: [
-              { text: '效果', link: '/brooke/04' },
+              { text: '小红书', link: '/brooke/04' },
              
             ],
           },
@@ -95,7 +95,7 @@ export default defineConfig({
         text: '项目展示',
         collapsed: false,
         items: [
-          { text: '效果', link: '/brooke/04' },
+          { text: '小红书', link: '/brooke/04' },
         ],
       },
     ],

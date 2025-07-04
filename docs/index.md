@@ -1,5 +1,5 @@
 <div align="center" style="margin-bottom: 24px;">
-  <img src="./img/xb.png" alt="头像" width="100" style="border-radius: 50%; display: block; margin: 0 auto 12px;" />
+  <img src="/img/xb.png" alt="头像" width="100" style="border-radius: 50%; display: block; margin: 0 auto 12px;" />
   <h1 style="margin: 0 0 8px;">徐斌</h1>
   <p style="margin: 0 0 4px; color: #666;">1995年10月 ｜ 深圳宝安 ｜ 共青团员</p>
   <p style="margin: 0; font-size: 14px; color: #444;">
@@ -19,6 +19,7 @@
   <div><strong>毕业院校：</strong>江西现代学院</div>
   <div><strong>专业：</strong>室内设计</div>
   <div><strong>求职意向：</strong>运营岗位</div>
+  <div><strong>期望工资：</strong>10000+元/月</div>
 </div>
 
 ---
@@ -35,23 +36,23 @@
 <div style="display: grid; grid-template-columns: 200px 1fr; gap: 12px; margin-bottom: 24px;">
   <div><strong>小红书运营</strong></div>
   <div>
-    <p style="margin: 0;">搭建两手硬家装分店小红书账号，持续内容产出，吸引 50+ 新客户，签单产值超 80 万。</p>
-    <p style="margin: 0;">广州格梵装饰多篇爆款内容，涨粉 3w+，单篇点赞 4w+、收藏 6.9w，变现超 100 万。</p>
+    <p style="margin: 0;">搭建两手硬家装小红书账号，持续内容产出，每月吸引 20+ 新客户，签单产值超 300w+。</p>
+    <p style="margin: 0;">广州格梵装饰多篇爆款内容，涨粉 3w+，单篇点赞 4w+、收藏 6.9w，变现超 100w+。</p>
   </div>
 
   <div><strong>视频平台运营</strong></div>
   <div>
-    <p style="margin: 0;">抖音/视频号管家宅配装饰子品牌账号搭建与运营，带来 100w+ 转化。</p>
+    <p style="margin: 0;">抖音/视频号管家宅配装饰子品牌账号搭建与运营，带来 150w+ 转化。</p>
   </div>
 
   <div><strong>好好住平台</strong></div>
   <div>
-    <p style="margin: 0;">10+ 案例入选精选，中户型榜 Top1、复古榜 Top2，2023 年机构榜 Top1。</p>
+    <p style="margin: 0;">代运营设计机构10+ 案例入选精选，中户型榜 Top1、复古榜 Top2，2023 年机构榜 Top1。</p>
   </div>
 
   <div><strong>住小帮账号</strong></div>
   <div>
-    <p style="margin: 0;">设计师“徐大兵”账号，广州口碑榜第2，优选榜第3，产值超 80 万。</p>
+    <p style="margin: 0;">设计师“徐大兵”账号，广州口碑榜第2，优选榜第3，产值超 180 万。</p>
   </div>
 </div>
 
@@ -65,7 +66,7 @@
     <ul style="margin: 0; padding-left: 1.2em;">
       <li>制定年度运营及投放计划，确保投产比可控</li>
       <li>复盘数据，调整策略，提升内容转化效率</li>
-      <li>深圳账号从0搭建，运营点评、土巴兔、住小帮、小红书等平台</li>
+      <li>深圳账号从0搭建，短视频、运营点评、土巴兔、住小帮、小红书等平台</li>
       <li>负责子品牌账号搭建与短视频脚本策划</li>
       <li>跟踪客户数据及平台机制，优化部门动作</li>
     </ul>
