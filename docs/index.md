@@ -2,9 +2,16 @@
   <img src="/img/xb.png" alt="头像" width="100" style="border-radius: 50%; display: block; margin: 0 auto 12px;" />
   <h1 style="margin: 0 0 8px;">徐斌</h1>
   <p style="margin: 0 0 4px; color: #666;">1995年10月 ｜ 深圳宝安 ｜ 共青团员</p>
-  <p style="margin: 0; font-size: 14px; color: #444;">
-    <a href="tel:19270080959" style="color: #1a73e8; text-decoration: none; margin-right: 16px;">19270080959</a>
-    <a href="mailto:bb@sosun.cc" style="color: #1a73e8; text-decoration: none;">bb@sosun.cc</a>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
+  <p style="margin: 0; font-size: 14px; color: #444; display: flex; align-items: center; justify-content: center; gap: 8px;">
+    <span style="display: flex; align-items: center; margin-right: 16px;">
+      <i class="ti ti-phone" style="font-size: 16px; color: #1a73e8; margin-right: 4px;"></i>
+      <a href="tel:19270080959" style="color: #1a73e8; text-decoration: none;">19270080959</a>
+    </span>
+    <span style="display: flex; align-items: center;">
+      <i class="ti ti-mail" style="font-size: 16px; color: #1a73e8; margin-right: 4px;"></i>
+      <a href="mailto:bb@sosun.cc" style="color: #1a73e8; text-decoration: none;">bb@sosun.cc</a>
+    </span>
   </p>
 </div>
 
@@ -114,3 +121,47 @@
 ---
 
 > 本简历由本人整理并维护。如需获取 PDF 简历，欢迎通过邮箱沟通：<a href="mailto:bb@sosun.cc">bb@sosun.cc</a>
+
+---
+
+## 点击快速了解运营平台
+
+<style scoped>
+.nav-outline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 24px;
+  justify-content: center;
+}
+.nav-outline-link {
+  padding: 14px 32px;
+  border-radius: 18px;
+  color: #555;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  border: 1px solid #e5e7eb;
+  background: none;
+  transition: color 0.18s, border 0.18s, box-shadow 0.18s, background 0.18s, transform 0.12s;
+  display: inline-block;
+  margin-bottom: 8px;
+  box-shadow: none;
+}
+.nav-outline-link:hover, .nav-outline-link:focus {
+  color: #1560b2;
+  border-color: #bfc4cc;
+  background: #f7fafd;
+  box-shadow: 0 2px 12px 0 rgba(30,41,59,0.08);
+  transform: translateY(-2px) scale(1.03);
+}
+</style>
+
+<div class="nav-outline">
+  <a href="/brooke/01" class="nav-outline-link">小红书运营</a>
+  <a href="/brooke/02" class="nav-outline-link">公众号运营</a>
+  <a href="/brooke/03" class="nav-outline-link">短视频平台</a>
+  <a href="/brooke/04" class="nav-outline-link">项目展示</a>
+  <a href="/brooke/05" class="nav-outline-link">案例卡片</a>
+  <a href="/brooke/06" class="nav-outline-link">公众号精选</a>
+</div>
