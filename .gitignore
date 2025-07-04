@@ -1,3 +1,13 @@
+// ... existing code ...
+docs/.vitepress/dist/
+
+# Local History
+.vscode/
+
+# Logs
+logs
+*.log
+
 node_modules 
 cache 
-dist 
+dist
