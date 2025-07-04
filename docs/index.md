@@ -42,7 +42,7 @@
 ### 工作亮点
 
 <div style="display: grid; grid-template-columns: 200px 1fr; gap: 12px; margin-bottom: 24px;">
-  <div><strong>小红书</strong></div>
+  <div><strong>小红书运营</strong></div>
   <div>
     <p style="margin: 0;">搭建两手硬家装小红书账号，持续内容产出，每月吸引 20+ 新客户，签单产值超 300w+。</p>
     <p style="margin: 0;">广州格梵装饰多篇爆款内容，涨粉 3w+，单篇点赞 4w+、收藏 6.9w，变现超 100w+。</p>
