@@ -1,3 +1,9 @@
+/* 全局 markdown 图片微圆角 */
+.markdown img {
+  border-radius: 0;
+  border: none;
+  box-sizing: border-box;
+}
 body {
   background: #fafbfc;
   color: #222;

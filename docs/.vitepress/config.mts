@@ -67,6 +67,9 @@ export default defineConfig({
            text: '项目展示',
             items: [
               { text: '小红书', link: '/brooke/04' },
+              { text: '短视频（待完善）', link: '/brooke/05' },
+              { text: '微信公众号（待完善）', link: '/brooke/06' },
+              { text: '好好住代运营（待完善）', link: '/brooke/07' },
              
             ],
           },
@@ -98,6 +101,7 @@ export default defineConfig({
           { text: '小红书', link: '/brooke/04' },
           { text: '短视频（待完善）', link: '/brooke/05' },
           { text: '微信公众号（待完善）', link: '/brooke/06' },
+          { text: '好好住代运营（待完善）', link: '/brooke/07' },
         ],
       },
     ],

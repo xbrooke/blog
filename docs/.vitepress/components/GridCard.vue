@@ -233,6 +233,9 @@ function getVideoIframe(url) {
   object-fit: cover;
   background: #f6f6f6;
   border-bottom: 1px solid #f0f0f0;
+  border-radius: 0;
+  border: none;
+  box-sizing: border-box;
 }
 .grid-card-content {
   padding: 14px 14px 12px 14px;

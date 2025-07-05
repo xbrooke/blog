@@ -7,11 +7,11 @@
   <p style="margin: 0; font-size: 14px; color: #444; display: flex; align-items: center; justify-content: center; gap: 8px;">
     <span style="display: flex; align-items: center; margin-right: 16px;">
       <i class="ti ti-phone" style="font-size: 16px; color: #1a73e8; margin-right: 4px;"></i>
-      <a href="tel:19270080959" style="color: #1a73e8; text-decoration: none;">19270080959</a>
+      <a href="tel:19270080959" style="color: #1a73e8; text-decoration: none; font-weight: 600; font-size: 16px;">19270080959</a>
     </span>
     <span style="display: flex; align-items: center;">
       <i class="ti ti-mail" style="font-size: 16px; color: #1a73e8; margin-right: 4px;"></i>
-      <a href="mailto:bb@sosun.cc" style="color: #1a73e8; text-decoration: none;">bb@sosun.cc</a>
+      <a href="mailto:bb@sosun.cc" style="color: #1a73e8; text-decoration: none; font-weight: 600; font-size: 16px;">bb@sosun.cc</a>
     </span>
   </p>
 </div>
