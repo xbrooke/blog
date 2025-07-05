@@ -70,7 +70,81 @@
       min-width: 48px;
     }
   }
+  h3 {
+    margin-bottom: 15px !important;
+    margin-top: 38px !important;
+  }
+  .main-content-wrap {
+    max-width: 820px;
+    margin: 0 auto 0 auto;
+    padding: 0 18px 32px 18px;
+    background: var(--vp-c-bg, #fff);
+    border-radius: 18px;
+    box-shadow: 0 2px 16px 0 rgba(30,41,59,0.04);
+    transition: background 0.2s;
+  }
+  @media (max-width: 900px) {
+    .main-content-wrap {
+      max-width: 100vw;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0 4vw 24px 4vw;
+    }
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(140px, 1fr));
+    gap: 18px;
+    margin-bottom: 24px;
+    margin-top: 2px;
+  }
+  .skill-card {
+    background: #fff;
+    border: 1.2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 18px 12px 14px 12px;
+    text-align: center;
+    box-shadow: none;
+    transition: border 0.18s, background 0.18s, color 0.18s;
+    font-size: 15.5px;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80px;
+  }
+  .skill-card strong {
+    font-size: 1.08em;
+    color: #222;
+    margin-bottom: 4px;
+    display: block;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+  .skill-card i {
+    font-size: 22px;
+    margin-bottom: 6px;
+    color: #222;
+    opacity: 0.82;
+  }
+  .skill-card:hover, .skill-card:focus {
+    border-color: #222;
+    background: #fafbfc;
+    color: #111;
+  }
+  @media (max-width: 700px) {
+    .skills-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .skill-card {
+      font-size: 14.5px;
+      padding: 13px 6px 10px 6px;
+      min-height: 60px;
+    }
+  }
 </style>
+<div class="main-content-wrap">
 <div class="profile-header">
   <img src="/img/xb.png" alt="头像" class="profile-header-img" />
   <h1>徐斌</h1>
@@ -110,32 +184,87 @@
 
 ---
 
+
+<div class="section-title-spacer"></div>
+
 ### 工作亮点
 
-<div style="display: grid; grid-template-columns: 200px 1fr; gap: 12px; margin-bottom: 24px;">
-  <div><strong>小红书运营</strong></div>
-  <div>
-    <p style="margin: 0;">搭建两手硬家装小红书账号，持续内容产出，每月吸引 20+ 新客户，签单产值超 300w+。</p>
-    <p style="margin: 0;">广州格梵装饰多篇爆款内容，涨粉 3w+，单篇点赞 4w+、收藏 6.9w，变现超 100w+。</p>
-  </div>
 
-  <div><strong>视频平台运营</strong></div>
-  <div>
-    <p style="margin: 0;">抖音/视频号管家宅配装饰子品牌账号搭建与运营，带来 150w+ 转化。</p>
-  </div>
 
-  <div><strong>好好住平台</strong></div>
-  <div>
-    <p style="margin: 0;">代运营设计机构10+ 案例入选精选，中户型榜 Top1、复古榜 Top2，2023 年机构榜 Top1。</p>
+<style scoped>
+  .work-highlights-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+  .work-highlight-card {
+    background: var(--vp-c-bg, #fff);
+    border: 1.2px solid #e5e7eb;
+    border-radius: 14px;
+    box-shadow: none;
+    padding: 18px 18px 14px 18px;
+    display: flex;
+    flex-direction: column;
+    min-height: 110px;
+    transition: border 0.18s, background 0.18s, color 0.18s;
+    color: #222;
+    position: relative;
+  }
+  .work-highlight-card strong {
+    font-size: 1.08em;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #111;
+    letter-spacing: 0.5px;
+    display: block;
+  }
+  .work-highlight-card p {
+    margin: 0 0 4px 0;
+    font-size: 1em;
+    color: #222;
+  }
+  .work-highlight-card:hover, .work-highlight-card:focus {
+    border-color: #222;
+    background: #fafbfc;
+    color: #111;
+  }
+  @media (max-width: 700px) {
+    .work-highlights-cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .work-highlight-card {
+      font-size: 14.5px;
+      padding: 13px 10px 10px 10px;
+      min-height: 80px;
+    }
+  }
+</style>
+<div class="work-highlights-cards">
+  <div class="work-highlight-card">
+    <strong>小红书运营</strong>
+    <p>搭建两手硬家装小红书账号，持续内容产出，每月吸引 20+ 新客户，签单产值超 300w+。</p>
+    <p>广州格梵装饰多篇爆款内容，涨粉 3w+，单篇点赞 4w+、收藏 6.9w，变现超 100w+。</p>
   </div>
-
-  <div><strong>住小帮账号</strong></div>
-  <div>
-    <p style="margin: 0;">设计师“徐大兵”账号，广州口碑榜第2，优选榜第3，产值超 180 万。</p>
+  <div class="work-highlight-card">
+    <strong>视频平台运营</strong>
+    <p>抖音/视频号管家宅配装饰子品牌账号搭建与运营，带来 150w+ 转化。</p>
+  </div>
+  <div class="work-highlight-card">
+    <strong>好好住平台</strong>
+    <p>代运营设计机构10+ 案例入选精选，中户型榜 Top1、复古榜 Top2，2023 年机构榜 Top1。</p>
+  </div>
+  <div class="work-highlight-card">
+    <strong>住小帮账号</strong>
+    <p>设计师“徐大兵”账号，广州口碑榜第2，优选榜第3，产值超 180 万。</p>
   </div>
 </div>
 
 ---
+
+<div class="section-title-spacer"></div>
 
 ### 工作经历
 
@@ -144,14 +273,15 @@
   .work-exp-grid {
     display: grid;
     grid-template-columns: 200px 1fr;
-    gap: 12px;
-    margin-bottom: 24px;
+    gap: 18px 18px;
+    margin-bottom: 28px;
     align-items: flex-start;
   }
   .work-exp-grid .work-exp-title {
     font-weight: bold;
     margin-bottom: 2px;
     line-height: 1.4;
+    font-size: 1.08em;
   }
   .work-exp-grid .work-exp-role {
     color: #666;
@@ -159,28 +289,33 @@
     margin-bottom: 2px;
   }
   .work-exp-grid ul {
-    margin: 0;
+    margin: 0 0 8px 0;
     padding-left: 1.2em;
+    font-size: 1em;
+    line-height: 1.7;
+  }
+  .work-exp-grid .work-exp-block {
+    margin-bottom: 8px;
   }
   @media (max-width: 700px) {
     .work-exp-grid {
       grid-template-columns: 1fr;
-      gap: 6px;
+      gap: 10px;
       margin-bottom: 18px;
     }
     .work-exp-grid .work-exp-title {
-      font-size: 1.08em;
-    }
-    .work-exp-grid .work-exp-role {
-      font-size: 0.97em;
+      font-size: 1.04em;
     }
     .work-exp-grid ul {
       font-size: 0.98em;
     }
+    .work-exp-grid .work-exp-block {
+      margin-bottom: 2px;
+    }
   }
 </style>
 <div class="work-exp-grid">
-  <div>
+  <div class="work-exp-block">
     <div class="work-exp-title">广州两手硬装饰</div>
     <div class="work-exp-role">渠道主管（2020.06 - 至今）</div>
   </div>
@@ -193,7 +328,7 @@
       <li>跟踪客户数据及平台机制，优化部门动作</li>
     </ul>
   </div>
-  <div>
+  <div class="work-exp-block">
     <div class="work-exp-title">华浔品味装饰总部</div>
     <div class="work-exp-role">新媒体运营（2019.09 - 2020.06）</div>
   </div>
@@ -205,7 +340,7 @@
       <li>搭建小红书账号，引入有效流量</li>
     </ul>
   </div>
-  <div>
+  <div class="work-exp-block">
     <div class="work-exp-title">华浔品味装饰总部</div>
     <div class="work-exp-role">设计师助理（2017.11 - 2019.07）</div>
   </div>
@@ -217,21 +352,29 @@
   </div>
 </div>
 
+
+
 ---
+
+<div class="section-title-spacer"></div>
 
 ### 技能特长
 
-<div style="display: grid; grid-template-columns: repeat(3, minmax(180px, 1fr)); gap: 16px; margin-bottom: 24px;">
-  <div><strong>Photoshop</strong><br>专业图像编辑与处理</div>
-  <div><strong>Premiere</strong><br>视频剪辑与后期制作</div>
-  <div><strong>剪映</strong><br>短视频快速剪辑工具</div>
-  <div><strong>AutoCAD</strong><br>熟练使用室内设计制图</div>
-  <div><strong>Office 办公工具</strong><br>Word / Excel / PPT 熟练操作</div>
-  <div><strong>HTML / Markdown</strong><br>基础网页维护与排版</div>
-  <div><strong>内容策划 / 脚本撰写 / 账号矩阵运营</strong></div>
+<div class="skills-grid">
+  <div class="skill-card"><i class="ti ti-photo" aria-hidden="true"></i><strong>Photoshop</strong>专业图像编辑与处理</div>
+  <div class="skill-card"><i class="ti ti-video" aria-hidden="true"></i><strong>Premiere</strong>视频剪辑与后期制作</div>
+  <div class="skill-card"><i class="ti ti-scissors" aria-hidden="true"></i><strong>剪映</strong>短视频快速剪辑工具</div>
+  <div class="skill-card"><i class="ti ti-ruler-measure" aria-hidden="true"></i><strong>AutoCAD</strong>熟练使用室内设计制图</div>
+  <div class="skill-card"><i class="ti ti-file-text" aria-hidden="true"></i><strong>Office 办公工具</strong>Word / Excel / PPT 熟练操作</div>
+  <div class="skill-card"><i class="ti ti-code" aria-hidden="true"></i><strong>HTML / Markdown</strong>基础网页维护与排版</div>
+  <div class="skill-card"><i class="ti ti-bulb" aria-hidden="true"></i><strong>内容策划 / 脚本撰写 / 账号矩阵运营</strong></div>
 </div>
 
+
 ---
+
+
+<div class="section-title-spacer"></div>
 
 ### 自我评价
 
@@ -246,6 +389,9 @@
 ## 点击快速了解运营平台
 
 <style scoped>
+  .section-title-spacer {
+    height: 16px;
+  }
 .nav-outline {
   display: flex;
   flex-wrap: wrap;
@@ -283,4 +429,5 @@
   <a href="/brooke/04" class="nav-outline-link">项目展示</a>
   <a href="/brooke/05" class="nav-outline-link">案例卡片</a>
   <a href="/brooke/06" class="nav-outline-link">公众号精选</a>
+</div>
 </div>
