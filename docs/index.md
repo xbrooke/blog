@@ -1,17 +1,88 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
 
-<div align="center" style="margin-bottom: 24px;">
-  <img src="/img/xb.png" alt="头像" width="100" style="border-radius: 50%; display: block; margin: 0 auto 12px;" />
-  <h1 style="margin: 0 0 8px;">徐斌</h1>
-  <p style="margin: 0 0 4px; color: #666;">1995年10月 ｜ 深圳宝安 ｜ 共青团员</p>
-  <p style="margin: 0; font-size: 14px; color: #444; display: flex; align-items: center; justify-content: center; gap: 8px;">
-    <span style="display: flex; align-items: center; margin-right: 16px;">
+
+<style scoped>
+  .profile-header {
+    margin-bottom: 24px;
+    text-align: center;
+    padding: 0 8px;
+  }
+  .profile-header-img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 12px;
+    width: 100px;
+    max-width: 28vw;
+    min-width: 64px;
+  }
+  .profile-header h1 {
+    margin: 0 0 8px;
+    font-size: 2.1rem;
+    line-height: 1.2;
+  }
+  .profile-header .profile-meta {
+    margin: 0 0 4px;
+    color: #666;
+    font-size: 1rem;
+  }
+  .profile-header .profile-contact {
+    margin: 0;
+    font-size: 15px;
+    color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .profile-header .profile-contact span {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    margin-bottom: 4px;
+  }
+  .profile-header .profile-contact a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    word-break: break-all;
+  }
+  @media (max-width: 600px) {
+    .profile-header {
+      padding: 0 2vw;
+    }
+    .profile-header h1 {
+      font-size: 1.4rem;
+    }
+    .profile-header .profile-meta {
+      font-size: 0.98rem;
+    }
+    .profile-header .profile-contact {
+      font-size: 13.5px;
+      gap: 4px;
+    }
+    .profile-header .profile-contact a {
+      font-size: 14px;
+    }
+    .profile-header-img {
+      width: 72px;
+      min-width: 48px;
+    }
+  }
+</style>
+<div class="profile-header">
+  <img src="/img/xb.png" alt="头像" class="profile-header-img" />
+  <h1>徐斌</h1>
+  <p class="profile-meta">1995年10月 ｜ 深圳宝安 ｜ 共青团员</p>
+  <p class="profile-contact">
+    <span>
       <i class="ti ti-phone" style="font-size: 16px; color: #1a73e8; margin-right: 4px;"></i>
-      <a href="tel:19270080959" style="color: #1a73e8; text-decoration: none; font-weight: 600; font-size: 16px;">19270080959</a>
+      <a href="tel:19270080959">19270080959</a>
     </span>
-    <span style="display: flex; align-items: center;">
+    <span>
       <i class="ti ti-mail" style="font-size: 16px; color: #1a73e8; margin-right: 4px;"></i>
-      <a href="mailto:bb@sosun.cc" style="color: #1a73e8; text-decoration: none; font-weight: 600; font-size: 16px;">bb@sosun.cc</a>
+      <a href="mailto:bb@sosun.cc">bb@sosun.cc</a>
     </span>
   </p>
 </div>
