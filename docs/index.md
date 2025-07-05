@@ -139,10 +139,53 @@
 
 ### 工作经历
 
-<div style="display: grid; grid-template-columns: 200px 1fr; gap: 12px; margin-bottom: 24px;">
-  <div><strong>广州两手硬装饰</strong><br>渠道主管（2020.06 - 至今）</div>
+
+<style scoped>
+  .work-exp-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-items: flex-start;
+  }
+  .work-exp-grid .work-exp-title {
+    font-weight: bold;
+    margin-bottom: 2px;
+    line-height: 1.4;
+  }
+  .work-exp-grid .work-exp-role {
+    color: #666;
+    font-size: 0.98em;
+    margin-bottom: 2px;
+  }
+  .work-exp-grid ul {
+    margin: 0;
+    padding-left: 1.2em;
+  }
+  @media (max-width: 700px) {
+    .work-exp-grid {
+      grid-template-columns: 1fr;
+      gap: 6px;
+      margin-bottom: 18px;
+    }
+    .work-exp-grid .work-exp-title {
+      font-size: 1.08em;
+    }
+    .work-exp-grid .work-exp-role {
+      font-size: 0.97em;
+    }
+    .work-exp-grid ul {
+      font-size: 0.98em;
+    }
+  }
+</style>
+<div class="work-exp-grid">
   <div>
-    <ul style="margin: 0; padding-left: 1.2em;">
+    <div class="work-exp-title">广州两手硬装饰</div>
+    <div class="work-exp-role">渠道主管（2020.06 - 至今）</div>
+  </div>
+  <div>
+    <ul>
       <li>制定年度运营及投放计划，确保投产比可控</li>
       <li>复盘数据，调整策略，提升内容转化效率</li>
       <li>深圳账号从0搭建，短视频、运营点评、土巴兔、住小帮、小红书等平台</li>
@@ -150,20 +193,24 @@
       <li>跟踪客户数据及平台机制，优化部门动作</li>
     </ul>
   </div>
-
-  <div><strong>华浔品味装饰总部</strong><br>新媒体运营（2019.09 - 2020.06）</div>
   <div>
-    <ul style="margin: 0; padding-left: 1.2em;">
+    <div class="work-exp-title">华浔品味装饰总部</div>
+    <div class="work-exp-role">新媒体运营（2019.09 - 2020.06）</div>
+  </div>
+  <div>
+    <ul>
       <li>撰写品牌新闻稿，策划整合营销活动</li>
       <li>执行多平台广告投放及投产分析</li>
       <li>处理平台负面评价，跟进客户反馈</li>
       <li>搭建小红书账号，引入有效流量</li>
     </ul>
   </div>
-
-  <div><strong>华浔品味装饰总部</strong><br>设计师助理（2017.11 - 2019.07）</div>
   <div>
-    <ul style="margin: 0; padding-left: 1.2em;">
+    <div class="work-exp-title">华浔品味装饰总部</div>
+    <div class="work-exp-role">设计师助理（2017.11 - 2019.07）</div>
+  </div>
+  <div>
+    <ul>
       <li>协助邀约客户、量房、谈单与签单</li>
       <li>参与方案制作、施工图纸绘制及现场跟进</li>
     </ul>
