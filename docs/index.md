@@ -80,7 +80,7 @@
     padding: 0 18px 32px 18px;
     background: var(--vp-c-bg, #fff);
     border-radius: 18px;
-    box-shadow: 0 2px 16px 0 rgba(30,41,59,0.04);
+    box-shadow: none;
     transition: background 0.2s;
   }
   @media (max-width: 900px) {
@@ -127,10 +127,16 @@
     color: #222;
     opacity: 0.82;
   }
-  .skill-card:hover, .skill-card:focus {
+  /* 统一卡片悬停/聚焦效果（无背景变浅） */
+  .work-highlight-card:hover, .work-highlight-card:focus,
+  .work-exp-card:hover, .work-exp-card:focus,
+  .skill-card:hover, .skill-card:focus,
+  .nav-outline-link:hover, .nav-outline-link:focus {
     border-color: #222;
-    background: #fafbfc;
     color: #111;
+    box-shadow: 0 2px 12px 0 rgba(30,41,59,0.08);
+    transform: translateY(-2px) scale(1.03);
+    /* 不改变背景色 */
   }
   @media (max-width: 700px) {
     .skills-grid {
@@ -141,6 +147,17 @@
       font-size: 14.5px;
       padding: 13px 6px 10px 6px;
       min-height: 60px;
+    }
+    /* 优化移动端数字显示：加粗并对齐美观 */
+    .main-content-wrap, .work-highlight-card, .work-exp-card, .skill-card, .nav-outline-link {
+      font-variant-numeric: tabular-nums;
+    }
+    .main-content-wrap strong, .main-content-wrap p, .main-content-wrap li, .main-content-wrap div,
+    .work-highlight-card strong, .work-highlight-card p, .work-highlight-card li, .work-highlight-card div,
+    .work-exp-card strong, .work-exp_card p, .work-exp-card li, .work-exp-card div,
+    .skill-card strong, .skill-card p, .skill-card li, .skill-card div,
+    .nav-outline-link {
+      font-weight: 600;
     }
   }
 </style>
@@ -224,11 +241,6 @@
     font-size: 1em;
     color: #222;
   }
-  .work-highlight-card:hover, .work-highlight-card:focus {
-    border-color: #222;
-    background: #fafbfc;
-    color: #111;
-  }
   @media (max-width: 700px) {
     .work-highlights-cards {
       grid-template-columns: 1fr;
@@ -244,21 +256,21 @@
 </style>
 <div class="work-highlights-cards">
   <div class="work-highlight-card">
-    <strong>小红书运营</strong>
-    <p>搭建两手硬家装小红书账号，持续内容产出，每月吸引 20+ 新客户，签单产值超 300w+。</p>
-    <p>广州格梵装饰多篇爆款内容，涨粉 3w+，单篇点赞 4w+、收藏 6.9w，变现超 100w+。</p>
+    <strong>小红书平台运营</strong>
+    <p>主导两手硬家装小红书账号搭建与内容矩阵，持续产出优质内容，每月吸引 20+ 新客户，签单产值超 300w+。</p>
+    <p>服务广州格梵装饰，打造多篇爆款内容，涨粉 3w+，单篇点赞 4w+、收藏 6.9w，变现超 100w+。</p>
   </div>
   <div class="work-highlight-card">
-    <strong>视频平台运营</strong>
-    <p>抖音/视频号管家宅配装饰子品牌账号搭建与运营，带来 150w+ 转化。</p>
+    <strong>短视频与视频号运营</strong>
+    <p>负责抖音/视频号等平台宅配装饰子品牌账号从0到1搭建，策划短视频内容，带来 150w+ 转化。</p>
   </div>
   <div class="work-highlight-card">
-    <strong>好好住平台</strong>
-    <p>代运营设计机构10+ 案例入选精选，中户型榜 Top1、复古榜 Top2，2023 年机构榜 Top1。</p>
+    <strong>好好住平台代运营</strong>
+    <p>为设计机构代运营，10+ 案例入选精选，中户型榜 Top1、复古榜 Top2，2023 年机构榜 Top1，持续带来高意向客户咨询。</p>
   </div>
   <div class="work-highlight-card">
-    <strong>住小帮账号</strong>
-    <p>设计师“徐大兵”账号，广州口碑榜第2，优选榜第3，产值超 180 万。</p>
+    <strong>住小帮账号成长</strong>
+    <p>运营设计师“徐大兵”账号，广州口碑榜第2，优选榜第3，产值超 180 万，提升品牌影响力与转化。</p>
   </div>
 </div>
 
@@ -270,56 +282,59 @@
 
 
 <style scoped>
-  .work-exp-grid {
+  .work-exp-cards {
     display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 18px 18px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 18px;
     margin-bottom: 28px;
-    align-items: flex-start;
   }
-  .work-exp-grid .work-exp-title {
-    font-weight: bold;
-    margin-bottom: 2px;
-    line-height: 1.4;
+  .work-exp-card {
+    background: #fff;
+    border: 1.2px solid #e5e7eb;
+    border-radius: 14px;
+    box-shadow: none;
+    padding: 18px 18px 14px 18px;
+    min-height: 110px;
+    transition: border 0.18s, background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.12s;
+    color: #222;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .work-exp-card strong {
     font-size: 1.08em;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #111;
+    letter-spacing: 0.5px;
+    display: block;
   }
-  .work-exp-grid .work-exp-role {
+  .work-exp-card .exp-role {
     color: #666;
     font-size: 0.98em;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
   }
-  .work-exp-grid ul {
-    margin: 0 0 8px 0;
-    padding-left: 1.2em;
+  .work-exp-card ul {
+    margin: 0 0 4px 1.2em;
+    padding: 0;
     font-size: 1em;
     line-height: 1.7;
   }
-  .work-exp-grid .work-exp-block {
-    margin-bottom: 8px;
-  }
-  @media (max-width: 700px) {
-    .work-exp-grid {
-      grid-template-columns: 1fr;
+  @media (max-width: 900px) {
+    .work-exp-cards {
       gap: 10px;
-      margin-bottom: 18px;
     }
-    .work-exp-grid .work-exp-title {
-      font-size: 1.04em;
-    }
-    .work-exp-grid ul {
-      font-size: 0.98em;
-    }
-    .work-exp-grid .work-exp-block {
-      margin-bottom: 2px;
+    .work-exp-card {
+      font-size: 14.5px;
+      padding: 13px 10px 10px 10px;
+      min-height: 80px;
     }
   }
 </style>
-<div class="work-exp-grid">
-  <div class="work-exp-block">
-    <div class="work-exp-title">广州两手硬装饰</div>
-    <div class="work-exp-role">渠道主管（2020.06 - 至今）</div>
-  </div>
-  <div>
+<div class="work-exp-cards">
+  <div class="work-exp-card">
+    <strong>广州两手硬装饰</strong>
+    <div class="exp-role">渠道主管（2020.06 - 至今）</div>
     <ul>
       <li>制定年度运营及投放计划，确保投产比可控</li>
       <li>复盘数据，调整策略，提升内容转化效率</li>
@@ -328,11 +343,9 @@
       <li>跟踪客户数据及平台机制，优化部门动作</li>
     </ul>
   </div>
-  <div class="work-exp-block">
-    <div class="work-exp-title">华浔品味装饰总部</div>
-    <div class="work-exp-role">新媒体运营（2019.09 - 2020.06）</div>
-  </div>
-  <div>
+  <div class="work-exp-card">
+    <strong>华浔品味装饰总部</strong>
+    <div class="exp-role">新媒体运营（2019.09 - 2020.06）</div>
     <ul>
       <li>撰写品牌新闻稿，策划整合营销活动</li>
       <li>执行多平台广告投放及投产分析</li>
@@ -340,11 +353,9 @@
       <li>搭建小红书账号，引入有效流量</li>
     </ul>
   </div>
-  <div class="work-exp-block">
-    <div class="work-exp-title">华浔品味装饰总部</div>
-    <div class="work-exp-role">设计师助理（2017.11 - 2019.07）</div>
-  </div>
-  <div>
+  <div class="work-exp-card">
+    <strong>华浔品味装饰总部</strong>
+    <div class="exp-role">设计师助理（2017.11 - 2019.07）</div>
     <ul>
       <li>协助邀约客户、量房、谈单与签单</li>
       <li>参与方案制作、施工图纸绘制及现场跟进</li>
@@ -393,32 +404,28 @@
     height: 16px;
   }
 .nav-outline {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 18px;
   margin-top: 24px;
   justify-content: center;
+  margin-bottom: 18px;
 }
 .nav-outline-link {
-  padding: 14px 32px;
-  border-radius: 18px;
-  color: #555;
+  padding: 18px 0;
+  border-radius: 14px;
+  color: #222;
   text-decoration: none;
   font-weight: 600;
   font-size: 17px;
-  border: 1px solid #e5e7eb;
-  background: none;
-  transition: color 0.18s, border 0.18s, box-shadow 0.18s, background 0.18s, transform 0.12s;
-  display: inline-block;
-  margin-bottom: 8px;
+  border: 1.2px solid #e5e7eb;
+  background: #fff;
+  transition: border 0.18s, background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.12s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
   box-shadow: none;
-}
-.nav-outline-link:hover, .nav-outline-link:focus {
-  color: #1560b2;
-  border-color: #bfc4cc;
-  background: #f7fafd;
-  box-shadow: 0 2px 12px 0 rgba(30,41,59,0.08);
-  transform: translateY(-2px) scale(1.03);
 }
 </style>
 
