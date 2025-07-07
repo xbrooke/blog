@@ -13,8 +13,8 @@ async function compressImage(filePath) {
 
     if (ext === '.jpg' || ext === '.jpeg') {
       await sharp(filePath)
-        .resize({ width: 1200 })
-        .jpeg({ quality: 60 })
+        .resize({ width: 2500 })
+        .jpeg({ quality: 85 })
         .toFile(tempOutputPath);
     } else if (ext === '.png') {
       await sharp(filePath)
