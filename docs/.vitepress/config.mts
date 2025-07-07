@@ -9,6 +9,7 @@ export default defineConfig({
 
   // #region fav
   head: [
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, shrink-to-fit=no' }],
     ['link',{ rel: 'icon', href: './img/logo.png'}],
     ['link',{ rel: 'stylesheet', href: '/.vitepress/theme/global.css'}]
   ],
@@ -69,8 +70,8 @@ export default defineConfig({
             items: [
               { text: '小红书', link: '/brooke/04' },
               { text: '短视频（待完善）', link: '/brooke/05' },
-              { text: '微信公众号（待完善）', link: '/brooke/06' },
-              { text: '好好住代运营（待完善）', link: '/brooke/07' },
+              { text: '微信公众号', link: '/brooke/06' },
+              { text: '好好住代运营', link: '/brooke/07' },
              
             ],
           },
@@ -101,8 +102,8 @@ export default defineConfig({
         items: [
           { text: '小红书', link: '/brooke/04' },
           { text: '短视频（待完善）', link: '/brooke/05' },
-          { text: '微信公众号（待完善）', link: '/brooke/06' },
-          { text: '好好住代运营（待完善）', link: '/brooke/07' },
+          { text: '微信公众号', link: '/brooke/06' },
+          { text: '好好住代运营', link: '/brooke/07' },
         ],
       },
     ],

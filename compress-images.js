@@ -13,7 +13,8 @@ async function compressImage(filePath) {
 
     if (ext === '.jpg' || ext === '.jpeg') {
       await sharp(filePath)
-        .jpeg({ quality: 40 })
+        .resize({ width: 1200 })
+        .jpeg({ quality: 60 })
         .toFile(tempOutputPath);
     } else if (ext === '.png') {
       await sharp(filePath)
@@ -26,7 +27,9 @@ async function compressImage(filePath) {
 
     // 替换原文件
     fs.renameSync(tempOutputPath, filePath);
-    console.log(`压缩成功: ${filePath}`);
+    const stats = fs.statSync(filePath);
+    const fileSizeKB = (stats.size / 1024).toFixed(2);
+    console.log(`压缩成功: ${filePath} (${fileSizeKB} KB)`);
   } catch (err) {
     console.error(`压缩失败: ${filePath}`, err);
   }
