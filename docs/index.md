@@ -186,7 +186,7 @@
   <div><strong>毕业院校：</strong>江西现代学院</div>
   <div><strong>专业：</strong>室内设计</div>
   <div><strong>求职意向：</strong>运营岗位</div>
-  <div><strong>期望工资：</strong>10000+元/月</div>
+  <div><strong>期望工资：</strong>12000元/月</div>
 </div>
 
 ---
@@ -453,10 +453,10 @@
 <div class="nav-outline">
   <a href="/brooke/01" class="nav-outline-link">小红书运营</a>
   <a href="/brooke/02" class="nav-outline-link">公众号运营</a>
-  <a href="/brooke/03" class="nav-outline-link">短视频平台</a>
-  <a href="/brooke/04" class="nav-outline-link">项目展示</a>
-  <a href="/brooke/05" class="nav-outline-link">案例卡片</a>
-  <a href="/brooke/06" class="nav-outline-link">公众号精选</a>
+  <a href="/brooke/03" class="nav-outline-link">短视频运营</a>
+  <a href="/brooke/04" class="nav-outline-link">小红书内容</a>
+  <a href="/brooke/05" class="nav-outline-link">短视频内容</a>
+  <a href="/brooke/06" class="nav-outline-link">公众号内容</a>
 </div>
 </div>
 
