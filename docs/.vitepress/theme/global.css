@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  /* 全局移动端字体优化 */
+  body,
+  .nav-outline-link,
+  .grid-card-title,
+  .grid-card-desc,
+  :not(pre) > code,
+  h1, h2, h3, h4, h5, h6,
+  p, span, a, li {
+    font-weight: 600 !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga' 1, 'calt' 1;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+  }
+}

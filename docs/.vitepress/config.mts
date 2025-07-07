@@ -10,6 +10,7 @@ export default defineConfig({
   // #region fav
   head: [
     ['link',{ rel: 'icon', href: './img/logo.png'}],
+    ['link',{ rel: 'stylesheet', href: '/.vitepress/theme/global.css'}]
   ],
   // #endregion fav
 

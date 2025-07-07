@@ -459,3 +459,19 @@
   <a href="/brooke/06" class="nav-outline-link">公众号精选</a>
 </div>
 </div>
+
+<style scoped>
+@media (max-width: 768px) {
+  .nav-outline-link,
+  .grid-card-title,
+  .grid-card-desc,
+  :not(pre) > code {
+    font-weight: 600 !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga' 1, 'calt' 1;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+  }
+}
+</style>
