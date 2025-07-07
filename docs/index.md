@@ -99,15 +99,15 @@
     margin-top: 2px;
   }
   .skill-card {
-    background: #fff;
-    border: 1.2px solid #e5e7eb;
+    background: var(--vp-c-bg, #fff);
+    border: 1.2px solid var(--vp-c-divider);
     border-radius: 12px;
     padding: 18px 12px 14px 12px;
     text-align: center;
     box-shadow: none;
     transition: border 0.18s, background 0.18s, color 0.18s;
     font-size: 15.5px;
-    color: #222;
+    color: var(--vp-c-text-1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +115,7 @@
   }
   .skill-card strong {
     font-size: 1.08em;
-    color: #222;
+    color: var(--vp-c-text-1);
     margin-bottom: 4px;
     display: block;
     letter-spacing: 0.5px;
@@ -124,19 +124,17 @@
   .skill-card i {
     font-size: 22px;
     margin-bottom: 6px;
-    color: #222;
+    color: var(--vp-c-text-1);
     opacity: 0.82;
   }
   /* 统一卡片悬停/聚焦效果（无背景变浅） */
   .work-highlight-card:hover, .work-highlight-card:focus,
   .work-exp-card:hover, .work-exp-card:focus,
-  .skill-card:hover, .skill-card:focus,
-  .nav-outline-link:hover, .nav-outline-link:focus {
-    border-color: #222;
-    color: #111;
+  .skill-card:hover, .skill-card:focus {
+    border-color: var(--vp-c-text-1);
+    color: var(--vp-c-text-1);
     box-shadow: 0 2px 12px 0 rgba(30,41,59,0.08);
     transform: translateY(-2px) scale(1.03);
-    /* 不改变背景色 */
   }
   @media (max-width: 700px) {
     .skills-grid {
@@ -148,7 +146,6 @@
       padding: 13px 6px 10px 6px;
       min-height: 60px;
     }
-    /* 优化移动端数字显示：加粗并对齐美观 */
     .main-content-wrap, .work-highlight-card, .work-exp-card, .skill-card, .nav-outline-link {
       font-variant-numeric: tabular-nums;
     }
@@ -217,7 +214,7 @@
   }
   .work-highlight-card {
     background: var(--vp-c-bg, #fff);
-    border: 1.2px solid #e5e7eb;
+    border: 1.2px solid var(--vp-c-divider);
     border-radius: 14px;
     box-shadow: none;
     padding: 18px 18px 14px 18px;
@@ -225,21 +222,21 @@
     flex-direction: column;
     min-height: 110px;
     transition: border 0.18s, background 0.18s, color 0.18s;
-    color: #222;
+    color: var(--vp-c-text-1);
     position: relative;
   }
   .work-highlight-card strong {
     font-size: 1.08em;
     font-weight: 600;
     margin-bottom: 6px;
-    color: #111;
+    color: var(--vp-c-text-1);
     letter-spacing: 0.5px;
     display: block;
   }
   .work-highlight-card p {
     margin: 0 0 4px 0;
     font-size: 1em;
-    color: #222;
+    color: var(--vp-c-text-2);
   }
   @media (max-width: 700px) {
     .work-highlights-cards {
@@ -289,14 +286,14 @@
     margin-bottom: 28px;
   }
   .work-exp-card {
-    background: #fff;
-    border: 1.2px solid #e5e7eb;
+    background: var(--vp-c-bg, #fff);
+    border: 1.2px solid var(--vp-c-divider);
     border-radius: 14px;
     box-shadow: none;
     padding: 18px 18px 14px 18px;
     min-height: 110px;
     transition: border 0.18s, background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.12s;
-    color: #222;
+    color: var(--vp-c-text-1);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -305,12 +302,12 @@
     font-size: 1.08em;
     font-weight: 600;
     margin-bottom: 6px;
-    color: #111;
+    color: var(--vp-c-text-1);
     letter-spacing: 0.5px;
     display: block;
   }
   .work-exp-card .exp-role {
-    color: #666;
+    color: var(--vp-c-text-2);
     font-size: 0.98em;
     margin-bottom: 4px;
   }
@@ -319,6 +316,24 @@
     padding: 0;
     font-size: 1em;
     line-height: 1.7;
+    color: var(--vp-c-text-2);
+  }
+
+  .nav-outline-link {
+    padding: 18px 0;
+    border-radius: 14px;
+    color: var(--vp-c-text-1);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1.2px solid var(--vp-c-divider);
+    background: var(--vp-c-bg);
+    transition: border 0.18s, background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.12s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    box-shadow: none;
   }
   @media (max-width: 900px) {
     .work-exp-cards {
@@ -413,19 +428,25 @@
 }
 .nav-outline-link {
   padding: 18px 0;
-  border-radius: 14px;
-  color: #222;
+   border-radius: 14px;
+  color: var(--vp-c-text-1);
   text-decoration: none;
   font-weight: 600;
   font-size: 17px;
-  border: 1.2px solid #e5e7eb;
-  background: #fff;
+  border: 1.2px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
   transition: border 0.18s, background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.12s;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 0;
   box-shadow: none;
+}
+.nav-outline-link:hover, .nav-outline-link:focus {
+  border-color: var(--vp-c-text-1);
+  color: var(--vp-c-text-1);
+  box-shadow: 0 2px 12px 0 rgba(30,41,59,0.08);
+  transform: translateY(-2px) scale(1.03);
 }
 </style>
 
