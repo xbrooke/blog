@@ -150,8 +150,8 @@ export default defineConfig({
 
     //页脚
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023 备案号：<a href="https://beian.miit.gov.cn/">京****号</a>',
+      message: 'Released under the MIT License。<a href="https://beian.miit.gov.cn/" target="_blank" style="color:#888;text-decoration:none;margin-left:12px;">粤ICP备2022068881号-1</a>',
+      copyright: 'Copyright © 2025',
     },
 
 
